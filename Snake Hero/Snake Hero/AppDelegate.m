@@ -17,6 +17,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    
+    [EngineGameSingleton defaultManager];
+    
 	// Create the main window
 	window_ = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 

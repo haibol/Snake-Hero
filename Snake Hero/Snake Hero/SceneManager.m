@@ -1,4 +1,7 @@
+
+
 #import "SceneManager.h"
+#import "SimpleAudioEngine.h"
 
 @interface SceneManager ()
 +(void) go: (CCLayer *) layer;
@@ -21,6 +24,14 @@
 	CCLayer *layer = [HighScoreLayer node];
 	[SceneManager go: layer];
 }
+
++(void) goGame{
+    
+    [[SimpleAudioEngine sharedEngine] stopBackgroundMusic];
+    CCLayer *layer = [GameBaseLayer node];
+    [SceneManager go:layer];
+}
+
 
 +(void) go: (CCLayer *) layer{
 	CCDirector *director = [CCDirector sharedDirector];

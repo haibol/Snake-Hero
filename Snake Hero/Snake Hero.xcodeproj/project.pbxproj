@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		088587E21677AC7400B5B2B6 /* GameBaseLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 088587E11677AC7400B5B2B6 /* GameBaseLayer.m */; };
+		088587E51677B05100B5B2B6 /* TubLineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 088587E41677B05100B5B2B6 /* TubLineLayer.m */; };
+		088587E91677B0A400B5B2B6 /* GestureLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 088587E81677B0A400B5B2B6 /* GestureLayer.m */; };
+		088587ED1677B1C300B5B2B6 /* GraphicTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 088587EC1677B1C300B5B2B6 /* GraphicTools.m */; };
+		088587F41677B4C100B5B2B6 /* EngineGameSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 088587F31677B4C100B5B2B6 /* EngineGameSingleton.m */; };
+		088587F61677B8A900B5B2B6 /* streak-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 088587F51677B8A900B5B2B6 /* streak-hd.png */; };
+		088587FC1677B8CA00B5B2B6 /* CCNode+SFGestureRecognizers.m in Sources */ = {isa = PBXBuildFile; fileRef = 088587F91677B8CA00B5B2B6 /* CCNode+SFGestureRecognizers.m */; };
+		088587FD1677B8CA00B5B2B6 /* SL_UISwipeGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 088587FB1677B8CA00B5B2B6 /* SL_UISwipeGestureRecognizer.m */; };
+		088588001677B9FA00B5B2B6 /* CCBlade.mm in Sources */ = {isa = PBXBuildFile; fileRef = 088587FF1677B9FA00B5B2B6 /* CCBlade.mm */; };
 		FF5649CF1677A511001B31C1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF5649CE1677A511001B31C1 /* QuartzCore.framework */; };
 		FF5649D11677A511001B31C1 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF5649D01677A511001B31C1 /* OpenGLES.framework */; };
 		FF5649D31677A511001B31C1 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF5649D21677A511001B31C1 /* OpenAL.framework */; };
@@ -145,6 +154,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		088587E01677AC7400B5B2B6 /* GameBaseLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameBaseLayer.h; sourceTree = "<group>"; };
+		088587E11677AC7400B5B2B6 /* GameBaseLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameBaseLayer.m; sourceTree = "<group>"; };
+		088587E31677B05100B5B2B6 /* TubLineLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TubLineLayer.h; sourceTree = "<group>"; };
+		088587E41677B05100B5B2B6 /* TubLineLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TubLineLayer.m; sourceTree = "<group>"; };
+		088587E71677B0A400B5B2B6 /* GestureLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureLayer.h; sourceTree = "<group>"; };
+		088587E81677B0A400B5B2B6 /* GestureLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureLayer.m; sourceTree = "<group>"; };
+		088587EB1677B1C300B5B2B6 /* GraphicTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicTools.h; sourceTree = "<group>"; };
+		088587EC1677B1C300B5B2B6 /* GraphicTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicTools.m; sourceTree = "<group>"; };
+		088587F21677B4C100B5B2B6 /* EngineGameSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EngineGameSingleton.h; sourceTree = "<group>"; };
+		088587F31677B4C100B5B2B6 /* EngineGameSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EngineGameSingleton.m; sourceTree = "<group>"; };
+		088587F51677B8A900B5B2B6 /* streak-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "streak-hd.png"; path = "Resources/streak-hd.png"; sourceTree = "<group>"; };
+		088587F81677B8CA00B5B2B6 /* CCNode+SFGestureRecognizers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCNode+SFGestureRecognizers.h"; sourceTree = "<group>"; };
+		088587F91677B8CA00B5B2B6 /* CCNode+SFGestureRecognizers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCNode+SFGestureRecognizers.m"; sourceTree = "<group>"; };
+		088587FA1677B8CA00B5B2B6 /* SL_UISwipeGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SL_UISwipeGestureRecognizer.h; path = libs/SL_UISwipeGestureRecognizer.h; sourceTree = "<group>"; };
+		088587FB1677B8CA00B5B2B6 /* SL_UISwipeGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SL_UISwipeGestureRecognizer.m; path = libs/SL_UISwipeGestureRecognizer.m; sourceTree = "<group>"; };
+		088587FE1677B9FA00B5B2B6 /* CCBlade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCBlade.h; path = libs/CCBlade.h; sourceTree = "<group>"; };
+		088587FF1677B9FA00B5B2B6 /* CCBlade.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CCBlade.mm; path = libs/CCBlade.mm; sourceTree = "<group>"; };
 		FF5649CA1677A511001B31C1 /* Snake Hero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snake Hero.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF5649CE1677A511001B31C1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FF5649D01677A511001B31C1 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -442,6 +468,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		088587DC1677AB5300B5B2B6 /* Views Extra */ = {
+			isa = PBXGroup;
+			children = (
+				FF564B661677A54C001B31C1 /* BaseLayer.h */,
+				FF564B671677A54C001B31C1 /* BaseLayer.m */,
+				FF564B681677A54C001B31C1 /* CreditsLayer.h */,
+				FF564B691677A54C001B31C1 /* CreditsLayer.m */,
+				FF564B6A1677A54C001B31C1 /* HighScoreLayer.h */,
+				FF564B6B1677A54C001B31C1 /* HighScoreLayer.m */,
+				FF564B6C1677A54C001B31C1 /* IntroLayer.h */,
+				FF564B6D1677A54C001B31C1 /* IntroLayer.m */,
+				FF564B6E1677A54C001B31C1 /* MenuLayer.h */,
+				FF564B6F1677A54C001B31C1 /* MenuLayer.m */,
+			);
+			name = "Views Extra";
+			sourceTree = "<group>";
+		};
+		088587DE1677AB6800B5B2B6 /* Views Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FF564B701677A54C001B31C1 /* SceneManager.h */,
+				FF564B711677A54C001B31C1 /* SceneManager.m */,
+			);
+			name = "Views Manager";
+			sourceTree = "<group>";
+		};
+		088587DF1677ABC300B5B2B6 /* Views Game */ = {
+			isa = PBXGroup;
+			children = (
+				088587E61677B05700B5B2B6 /* Game Elements */,
+				088587E01677AC7400B5B2B6 /* GameBaseLayer.h */,
+				088587E11677AC7400B5B2B6 /* GameBaseLayer.m */,
+			);
+			name = "Views Game";
+			sourceTree = "<group>";
+		};
+		088587E61677B05700B5B2B6 /* Game Elements */ = {
+			isa = PBXGroup;
+			children = (
+				088587E31677B05100B5B2B6 /* TubLineLayer.h */,
+				088587E41677B05100B5B2B6 /* TubLineLayer.m */,
+				088587E71677B0A400B5B2B6 /* GestureLayer.h */,
+				088587E81677B0A400B5B2B6 /* GestureLayer.m */,
+			);
+			name = "Game Elements";
+			sourceTree = "<group>";
+		};
+		088587EA1677B1B000B5B2B6 /* Static Tools */ = {
+			isa = PBXGroup;
+			children = (
+				088587EB1677B1C300B5B2B6 /* GraphicTools.h */,
+				088587EC1677B1C300B5B2B6 /* GraphicTools.m */,
+			);
+			name = "Static Tools";
+			sourceTree = "<group>";
+		};
+		088587EE1677B2D200B5B2B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				088587F21677B4C100B5B2B6 /* EngineGameSingleton.h */,
+				088587F31677B4C100B5B2B6 /* EngineGameSingleton.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		088587F71677B8CA00B5B2B6 /* CCNode+SFGestureRecognizers */ = {
+			isa = PBXGroup;
+			children = (
+				088587F81677B8CA00B5B2B6 /* CCNode+SFGestureRecognizers.h */,
+				088587F91677B8CA00B5B2B6 /* CCNode+SFGestureRecognizers.m */,
+			);
+			name = "CCNode+SFGestureRecognizers";
+			path = "libs/CCNode+SFGestureRecognizers";
+			sourceTree = "<group>";
+		};
 		FF5649BF1677A511001B31C1 = {
 			isa = PBXGroup;
 			children = (
@@ -462,6 +563,7 @@
 		FF5649CD1677A511001B31C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FF5649FB1677A511001B31C1 /* libs */,
 				FF5649CE1677A511001B31C1 /* QuartzCore.framework */,
 				FF5649D01677A511001B31C1 /* OpenGLES.framework */,
 				FF5649D21677A511001B31C1 /* OpenAL.framework */,
@@ -478,22 +580,14 @@
 		FF5649E01677A511001B31C1 /* Snake Hero */ = {
 			isa = PBXGroup;
 			children = (
+				088587EE1677B2D200B5B2B6 /* Controller */,
 				FF564B581677A513001B31C1 /* AppDelegate.h */,
 				FF564B591677A513001B31C1 /* AppDelegate.m */,
-				FF564B661677A54C001B31C1 /* BaseLayer.h */,
-				FF564B671677A54C001B31C1 /* BaseLayer.m */,
-				FF564B681677A54C001B31C1 /* CreditsLayer.h */,
-				FF564B691677A54C001B31C1 /* CreditsLayer.m */,
-				FF564B6A1677A54C001B31C1 /* HighScoreLayer.h */,
-				FF564B6B1677A54C001B31C1 /* HighScoreLayer.m */,
-				FF564B6C1677A54C001B31C1 /* IntroLayer.h */,
-				FF564B6D1677A54C001B31C1 /* IntroLayer.m */,
-				FF564B6E1677A54C001B31C1 /* MenuLayer.h */,
-				FF564B6F1677A54C001B31C1 /* MenuLayer.m */,
-				FF564B701677A54C001B31C1 /* SceneManager.h */,
-				FF564B711677A54C001B31C1 /* SceneManager.m */,
+				088587DE1677AB6800B5B2B6 /* Views Manager */,
+				088587DC1677AB5300B5B2B6 /* Views Extra */,
+				088587DF1677ABC300B5B2B6 /* Views Game */,
+				088587EA1677B1B000B5B2B6 /* Static Tools */,
 				FF5649E11677A511001B31C1 /* Resources */,
-				FF5649FB1677A511001B31C1 /* libs */,
 				FF564B541677A513001B31C1 /* Supporting Files */,
 			);
 			path = "Snake Hero";
@@ -502,6 +596,7 @@
 		FF5649E11677A511001B31C1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				088587F51677B8A900B5B2B6 /* streak-hd.png */,
 				FF564B781677A582001B31C1 /* background-music-aac.caf */,
 				FF564B791677A582001B31C1 /* logoGameJam_colors.png */,
 				FF564B7A1677A582001B31C1 /* background_snake.png */,
@@ -527,6 +622,11 @@
 		FF5649FB1677A511001B31C1 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				088587FE1677B9FA00B5B2B6 /* CCBlade.h */,
+				088587FF1677B9FA00B5B2B6 /* CCBlade.mm */,
+				088587F71677B8CA00B5B2B6 /* CCNode+SFGestureRecognizers */,
+				088587FA1677B8CA00B5B2B6 /* SL_UISwipeGestureRecognizer.h */,
+				088587FB1677B8CA00B5B2B6 /* SL_UISwipeGestureRecognizer.m */,
 				FF564B121677A513001B31C1 /* LICENSE_cocos2d.txt */,
 				FF564B211677A513001B31C1 /* LICENSE_CocosDenshion.txt */,
 				FF564B531677A513001B31C1 /* LICENSE_Kazmath.txt */,
@@ -535,6 +635,7 @@
 				FF564B221677A513001B31C1 /* kazmath */,
 			);
 			name = libs;
+			path = "Snake Hero";
 			sourceTree = "<group>";
 		};
 		FF5649FC1677A511001B31C1 /* cocos2d */ = {
@@ -935,6 +1036,7 @@
 				FF564B7F1677A582001B31C1 /* background_snake.png in Resources */,
 				FF564B801677A582001B31C1 /* Default.png in Resources */,
 				FF564B811677A582001B31C1 /* SplashScreen.png in Resources */,
+				088587F61677B8A900B5B2B6 /* streak-hd.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1053,6 +1155,14 @@
 				FF564B751677A54C001B31C1 /* IntroLayer.m in Sources */,
 				FF564B761677A54C001B31C1 /* MenuLayer.m in Sources */,
 				FF564B771677A54C001B31C1 /* SceneManager.m in Sources */,
+				088587E21677AC7400B5B2B6 /* GameBaseLayer.m in Sources */,
+				088587E51677B05100B5B2B6 /* TubLineLayer.m in Sources */,
+				088587E91677B0A400B5B2B6 /* GestureLayer.m in Sources */,
+				088587ED1677B1C300B5B2B6 /* GraphicTools.m in Sources */,
+				088587F41677B4C100B5B2B6 /* EngineGameSingleton.m in Sources */,
+				088587FC1677B8CA00B5B2B6 /* CCNode+SFGestureRecognizers.m in Sources */,
+				088587FD1677B8CA00B5B2B6 /* SL_UISwipeGestureRecognizer.m in Sources */,
+				088588001677B9FA00B5B2B6 /* CCBlade.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1160,6 +1270,7 @@
 				FF564B651677A513001B31C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

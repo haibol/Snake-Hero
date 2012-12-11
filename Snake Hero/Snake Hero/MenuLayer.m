@@ -7,7 +7,7 @@
 	self = [super init];
     
 	CCLabelTTF *title = [CCLabelTTF labelWithString:@"Snake Hero" fontName:@"Marker Felt" fontSize:48];
-	CCLabelTTF *titleTop = [CCLabelTTF labelWithString:@"GameJam Team 4 present:" fontName:@"Marker Felt" fontSize:26];
+	CCLabelTTF *titleTop = [CCLabelTTF labelWithString:@"GameJam Team 4 present :" fontName:@"Marker Felt" fontSize:26];
     
 	CCMenuItemFont *startNew = [CCMenuItemFont itemWithString:@"New Game" target:self selector: @selector(onNewGame:)];
     CCMenuItemFont *highScore = [CCMenuItemFont itemWithString:@"High Score" target:self selector: @selector(onHighScore:)];
@@ -28,7 +28,7 @@
 }
 
 - (void)onNewGame:(id)sender{
-	[SceneManager goMenu];
+	[SceneManager goGame];
 }
 
 - (void)onHighScore:(id)sender{
