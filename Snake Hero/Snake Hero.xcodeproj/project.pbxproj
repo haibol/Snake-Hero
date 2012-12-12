@@ -16,6 +16,13 @@
 		088587FC1677B8CA00B5B2B6 /* CCNode+SFGestureRecognizers.m in Sources */ = {isa = PBXBuildFile; fileRef = 088587F91677B8CA00B5B2B6 /* CCNode+SFGestureRecognizers.m */; };
 		088587FD1677B8CA00B5B2B6 /* SL_UISwipeGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 088587FB1677B8CA00B5B2B6 /* SL_UISwipeGestureRecognizer.m */; };
 		088588001677B9FA00B5B2B6 /* CCBlade.mm in Sources */ = {isa = PBXBuildFile; fileRef = 088587FF1677B9FA00B5B2B6 /* CCBlade.mm */; };
+		F80B9BD6167881FA00440585 /* block_b.png in Resources */ = {isa = PBXBuildFile; fileRef = F80B9BD0167881FA00440585 /* block_b.png */; };
+		F80B9BD7167881FA00440585 /* block_g.png in Resources */ = {isa = PBXBuildFile; fileRef = F80B9BD1167881FA00440585 /* block_g.png */; };
+		F80B9BD8167881FA00440585 /* block_o.png in Resources */ = {isa = PBXBuildFile; fileRef = F80B9BD2167881FA00440585 /* block_o.png */; };
+		F80B9BD9167881FA00440585 /* block_p.png in Resources */ = {isa = PBXBuildFile; fileRef = F80B9BD3167881FA00440585 /* block_p.png */; };
+		F80B9BDA167881FA00440585 /* block_y.png in Resources */ = {isa = PBXBuildFile; fileRef = F80B9BD4167881FA00440585 /* block_y.png */; };
+		F80B9BDE167882AF00440585 /* MapLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F80B9BDD167882AF00440585 /* MapLayer.m */; };
+		F80B9BE2167883FF00440585 /* snakeMap.tmx in Resources */ = {isa = PBXBuildFile; fileRef = F80B9BE1167883FF00440585 /* snakeMap.tmx */; };
 		FF5649CF1677A511001B31C1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF5649CE1677A511001B31C1 /* QuartzCore.framework */; };
 		FF5649D11677A511001B31C1 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF5649D01677A511001B31C1 /* OpenGLES.framework */; };
 		FF5649D31677A511001B31C1 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF5649D21677A511001B31C1 /* OpenAL.framework */; };
@@ -171,6 +178,16 @@
 		088587FB1677B8CA00B5B2B6 /* SL_UISwipeGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SL_UISwipeGestureRecognizer.m; path = libs/SL_UISwipeGestureRecognizer.m; sourceTree = "<group>"; };
 		088587FE1677B9FA00B5B2B6 /* CCBlade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCBlade.h; path = libs/CCBlade.h; sourceTree = "<group>"; };
 		088587FF1677B9FA00B5B2B6 /* CCBlade.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CCBlade.mm; path = libs/CCBlade.mm; sourceTree = "<group>"; };
+		F80B9BCE167881E500440585 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		F80B9BCF167881E500440585 /* Constants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		F80B9BD0167881FA00440585 /* block_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block_b.png; sourceTree = "<group>"; };
+		F80B9BD1167881FA00440585 /* block_g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block_g.png; sourceTree = "<group>"; };
+		F80B9BD2167881FA00440585 /* block_o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block_o.png; sourceTree = "<group>"; };
+		F80B9BD3167881FA00440585 /* block_p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block_p.png; sourceTree = "<group>"; };
+		F80B9BD4167881FA00440585 /* block_y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block_y.png; sourceTree = "<group>"; };
+		F80B9BDC167882AF00440585 /* MapLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLayer.h; sourceTree = "<group>"; };
+		F80B9BDD167882AF00440585 /* MapLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLayer.m; sourceTree = "<group>"; };
+		F80B9BE1167883FF00440585 /* snakeMap.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = snakeMap.tmx; sourceTree = "<group>"; };
 		FF5649CA1677A511001B31C1 /* Snake Hero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snake Hero.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF5649CE1677A511001B31C1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FF5649D01677A511001B31C1 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -511,6 +528,8 @@
 				088587E41677B05100B5B2B6 /* TubLineLayer.m */,
 				088587E71677B0A400B5B2B6 /* GestureLayer.h */,
 				088587E81677B0A400B5B2B6 /* GestureLayer.m */,
+				F80B9BDC167882AF00440585 /* MapLayer.h */,
+				F80B9BDD167882AF00440585 /* MapLayer.m */,
 			);
 			name = "Game Elements";
 			sourceTree = "<group>";
@@ -518,6 +537,8 @@
 		088587EA1677B1B000B5B2B6 /* Static Tools */ = {
 			isa = PBXGroup;
 			children = (
+				F80B9BCE167881E500440585 /* Constants.h */,
+				F80B9BCF167881E500440585 /* Constants.m */,
 				088587EB1677B1C300B5B2B6 /* GraphicTools.h */,
 				088587EC1677B1C300B5B2B6 /* GraphicTools.m */,
 			);
@@ -596,6 +617,12 @@
 		FF5649E11677A511001B31C1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F80B9BE1167883FF00440585 /* snakeMap.tmx */,
+				F80B9BD0167881FA00440585 /* block_b.png */,
+				F80B9BD1167881FA00440585 /* block_g.png */,
+				F80B9BD2167881FA00440585 /* block_o.png */,
+				F80B9BD3167881FA00440585 /* block_p.png */,
+				F80B9BD4167881FA00440585 /* block_y.png */,
 				088587F51677B8A900B5B2B6 /* streak-hd.png */,
 				FF564B781677A582001B31C1 /* background-music-aac.caf */,
 				FF564B791677A582001B31C1 /* logoGameJam_colors.png */,
@@ -1037,6 +1064,12 @@
 				FF564B801677A582001B31C1 /* Default.png in Resources */,
 				FF564B811677A582001B31C1 /* SplashScreen.png in Resources */,
 				088587F61677B8A900B5B2B6 /* streak-hd.png in Resources */,
+				F80B9BD6167881FA00440585 /* block_b.png in Resources */,
+				F80B9BD7167881FA00440585 /* block_g.png in Resources */,
+				F80B9BD8167881FA00440585 /* block_o.png in Resources */,
+				F80B9BD9167881FA00440585 /* block_p.png in Resources */,
+				F80B9BDA167881FA00440585 /* block_y.png in Resources */,
+				F80B9BE2167883FF00440585 /* snakeMap.tmx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1163,6 +1196,7 @@
 				088587FC1677B8CA00B5B2B6 /* CCNode+SFGestureRecognizers.m in Sources */,
 				088587FD1677B8CA00B5B2B6 /* SL_UISwipeGestureRecognizer.m in Sources */,
 				088588001677B9FA00B5B2B6 /* CCBlade.mm in Sources */,
+				F80B9BDE167882AF00440585 /* MapLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

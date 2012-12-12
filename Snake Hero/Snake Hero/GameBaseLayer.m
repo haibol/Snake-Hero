@@ -8,6 +8,7 @@
 
 #import "GameBaseLayer.h"
 #import "TubLineLayer.h"
+#import "MapLayer.h"
 
 
 @implementation GameBaseLayer
@@ -28,6 +29,16 @@
         
         GestureLayer * gestureLayer = [GestureLayer node];
         [self addChild:gestureLayer];
+        
+        MapLayer * mapLayer = [MapLayer node];
+        [self addChild:mapLayer];
+        
+        
+        for(int i = 0; i < 30; i++)
+        {
+            for(int j = 0; j < 30; j++)
+                [mapLayer addSnakePart:i :j];
+        }
         
         //
         //  TUBLINE
