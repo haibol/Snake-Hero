@@ -34,11 +34,11 @@
         MapLayer * mapLayer = [MapLayer node];
         [self addChild:mapLayer];
         
-        /*
-        for(int i = 0; i < 30; i++)
+        
+        /*for(int i = 0; i < 30; i++)
         {
             for(int j = 0; j < 30; j++)
-                [mapLayer addSnakePart:i :j];
+                [mapLayer addSnakePart:240 :j : 1];
         }*/
         
         Fakir * fakir = [Fakir node];

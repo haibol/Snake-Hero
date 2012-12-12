@@ -27,13 +27,13 @@
         
             // Set Snake Map
             self.map = [CCTMXTiledMap tiledMapWithTMXFile:@"snakeMap.tmx"];
-            self.map.position = ccp(100, 50);
+            self.map.position = ccp(Map_Position_x, Map_Position_y);
         
             // Add it to main scene
             [self addChild:self.map];
         
             // Initialize game speed
-            self.currentSpeed = Speed_1;
+            self.currentSpeed = (int)Speed_1;
         
             // Initialize origin position
             self.currentPosition = CGPointMake(0, 0);
@@ -89,8 +89,8 @@
         // Load Snake Sprite
         CCSprite *snakeSprite = [CCSprite spriteWithFile:@"block_b.png"];
         
-        int width = [snakeSprite boundingBox].size.width;
-        int height = [snakeSprite boundingBox].size.height;
+        /*int width = [snakeSprite boundingBox].size.width;
+        int height = [snakeSprite boundingBox].size.height;*/
         
         // Update level count
         self.levelCount = [[self currentLevelDictionnary] count];
