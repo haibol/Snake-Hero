@@ -6,7 +6,6 @@
 -(id) init{
 	self = [super init];
     
-	CCLabelTTF *title = [CCLabelTTF labelWithString:@"Snake Hero" fontName:@"Marker Felt" fontSize:48];
 	CCLabelTTF *titleTop = [CCLabelTTF labelWithString:@"GameJam Team 4 present :" fontName:@"Marker Felt" fontSize:26];
     
 	CCMenuItemFont *startNew = [CCMenuItemFont itemWithString:@"New Game" target:self selector: @selector(onNewGame:)];
@@ -14,11 +13,11 @@
 	CCMenuItemFont *credits = [CCMenuItemFont itemWithString:@"Credits" target:self selector: @selector(onCredits:)];
 	CCMenu *menu = [CCMenu menuWithItems:startNew, highScore ,credits, nil];
     
-	titleTop.position = ccp(512, 500);
-	[self addChild: titleTop];
+    Title * title = [Title node];
+    [self addChild:title];
     
-	title.position = ccp(512, 450);
-	[self addChild: title];
+	titleTop.position = ccp(512, 600);
+	[self addChild: titleTop];
     
 	menu.position = ccp(512, 300);
 	[menu alignItemsVerticallyWithPadding: 40.0f];

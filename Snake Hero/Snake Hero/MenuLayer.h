@@ -3,6 +3,7 @@
 #import "SceneManager.h"
 
 #import "BaseLayer.h"
+#import "Title.h"
 @interface MenuLayer : BaseLayer {
 }
 

@@ -22,8 +22,9 @@
         CGSize winSize = [CCDirector sharedDirector].winSize;
         CGPoint centralPositionTubLineCo = ccp(round(winSize.width/2), round(winSize.height/1.1));
         
-        
-        
+        BackgroundLayer * backgoundLayer = [BackgroundLayer node];
+        [self addChild:backgoundLayer];
+
         TubLineLayer * tubLineLayer = [TubLineLayer node];
         [self addChild:tubLineLayer];
         
@@ -33,13 +34,10 @@
         MapLayer * mapLayer = [MapLayer node];
         [self addChild:mapLayer];
         
+        Fakir * fakir = [Fakir node];
+        [self addChild:fakir];
         
-        for(int i = 0; i < 30; i++)
-        {
-            for(int j = 0; j < 30; j++)
-                [mapLayer addSnakePart:i :j];
-        }
-        
+                
         //
         //  TUBLINE
         //

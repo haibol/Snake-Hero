@@ -44,8 +44,8 @@
                               target:self selector:@selector(actionNiveau1:)];
         action.position = ccp(60, 60);
         CCMenu *starMenu = [CCMenu menuWithItems:action, nil];
-        starMenu.position = CGPointZero;
-        [self addChild:starMenu];
+//        starMenu.position = CGPointZero;
+//        [self addChild:starMenu];
         
         
         
