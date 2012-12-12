@@ -47,6 +47,7 @@
             CCMenuItem *action = [CCMenuItemImage
                               itemFromNormalImage:@"Icon-72.png" selectedImage:@"Icon-72.png"
                               target:self selector:@selector(actionNiveau1:)];
+
             action.position = ccp(60, 60);
             CCMenu *starMenu = [CCMenu menuWithItems:action, nil];
             starMenu.position = CGPointZero;

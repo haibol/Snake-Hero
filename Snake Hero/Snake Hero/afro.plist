@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		
+		<key>afro1.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{111, 111}, {418, 578}}</string>
+			<key>spriteOffset</key>
+			<string>{14, -4}</string>
+			<key>spriteSize</key>
+			<string>{418, 578}</string>
+			<key>spriteSourceSize</key>
+			<string>{612, 792}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 0}, {418, 578}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>afro2.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{111, 111}, {422, 578}}</string>
+			<key>spriteOffset</key>
+			<string>{16, -4}</string>
+			<key>spriteSize</key>
+			<string>{422, 578}</string>
+			<key>spriteSourceSize</key>
+			<string>{612, 792}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{420, 0}, {422, 578}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>afro3.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{111, 111}, {426, 578}}</string>
+			<key>spriteOffset</key>
+			<string>{18, -4}</string>
+			<key>spriteSize</key>
+			<string>{426, 578}</string>
+			<key>spriteSourceSize</key>
+			<string>{612, 792}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{844, 0}, {426, 578}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>afro4.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{111, 111}, {430, 578}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -4}</string>
+			<key>spriteSize</key>
+			<string>{430, 578}</string>
+			<key>spriteSourceSize</key>
+			<string>{612, 792}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{1272, 0}, {430, 578}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>afro5.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{111, 111}, {436, 578}}</string>
+			<key>spriteOffset</key>
+			<string>{23, -4}</string>
+			<key>spriteSize</key>
+			<string>{436, 578}</string>
+			<key>spriteSourceSize</key>
+			<string>{612, 792}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{1704, 0}, {436, 578}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>afro6.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{111, 111}, {430, 578}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -4}</string>
+			<key>spriteSize</key>
+			<string>{430, 578}</string>
+			<key>spriteSourceSize</key>
+			<string>{612, 792}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{2142, 0}, {430, 578}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>afro7.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{111, 111}, {426, 578}}</string>
+			<key>spriteOffset</key>
+			<string>{18, -4}</string>
+			<key>spriteSize</key>
+			<string>{426, 578}</string>
+			<key>spriteSourceSize</key>
+			<string>{612, 792}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{2574, 0}, {426, 578}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>afro8.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{111, 111}, {422, 578}}</string>
+			<key>spriteOffset</key>
+			<string>{16, -4}</string>
+			<key>spriteSize</key>
+			<string>{422, 578}</string>
+			<key>spriteSourceSize</key>
+			<string>{612, 792}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{3002, 0}, {422, 578}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>afro9.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{111, 111}, {418, 578}}</string>
+			<key>spriteOffset</key>
+			<string>{14, -4}</string>
+			<key>spriteSize</key>
+			<string>{418, 578}</string>
+			<key>spriteSourceSize</key>
+			<string>{612, 792}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{3426, 0}, {418, 578}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>version</key>
+		<string>1.5.8</string>
+		<key>format</key>
+		<integer>3</integer>
+		<key>size</key>
+		<string>{4096, 1024}</string>
+		<key>name</key>
+		<string>Untitled 4</string>
+		<key>premultipliedAlpha</key>
+		<false/>
+		<key>target</key>
+		<dict>
+			<key>name</key>
+			<string>default</string>
+			<key>textureFileName</key>
+			<string>afro</string>
+			<key>textureFileExtension</key>
+			<string>.png</string>
+			<key>coordinatesFileName</key>
+			<string>afro</string>
+			<key>coordinatesFileExtension</key>
+			<string>.plist</string>
+			<key>premultipliedAlpha</key>
+			<false/>
+		</dict>
+	</dict>
+</dict>
+</plist>

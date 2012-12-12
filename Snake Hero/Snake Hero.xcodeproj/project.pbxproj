@@ -158,6 +158,16 @@
 		FF564B7F1677A582001B31C1 /* background_snake.png in Resources */ = {isa = PBXBuildFile; fileRef = FF564B7A1677A582001B31C1 /* background_snake.png */; };
 		FF564B801677A582001B31C1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FF564B7B1677A582001B31C1 /* Default.png */; };
 		FF564B811677A582001B31C1 /* SplashScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = FF564B7C1677A582001B31C1 /* SplashScreen.png */; };
+		FF5BAC221678F0CF00BC2A64 /* title.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF5BAC201678F0CF00BC2A64 /* title.plist */; };
+		FF5BAC231678F0CF00BC2A64 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5BAC211678F0CF00BC2A64 /* title.png */; };
+		FF5BAC261678F32200BC2A64 /* Title.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5BAC251678F32200BC2A64 /* Title.m */; };
+		FF5BAC281678F86A00BC2A64 /* dunes.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5BAC271678F86A00BC2A64 /* dunes.png */; };
+		FF5BAC2A1678FBB900BC2A64 /* cactus.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5BAC291678FBB900BC2A64 /* cactus.png */; };
+		FF5BAC2C1678FCAC00BC2A64 /* basket.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5BAC2B1678FCAC00BC2A64 /* basket.png */; };
+		FF5BAC2F1678FD4B00BC2A64 /* BackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5BAC2E1678FD4B00BC2A64 /* BackgroundLayer.m */; };
+		FF5BAC321678FEBA00BC2A64 /* afro.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF5BAC301678FEBA00BC2A64 /* afro.plist */; };
+		FF5BAC331678FEBA00BC2A64 /* afro.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5BAC311678FEBA00BC2A64 /* afro.png */; };
+		FF5BAC361678FEE900BC2A64 /* Fakir.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5BAC341678FEE900BC2A64 /* Fakir.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -463,6 +473,19 @@
 		FF564B7A1677A582001B31C1 /* background_snake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_snake.png; sourceTree = "<group>"; };
 		FF564B7B1677A582001B31C1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		FF564B7C1677A582001B31C1 /* SplashScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SplashScreen.png; sourceTree = "<group>"; };
+		FF5BAC201678F0CF00BC2A64 /* title.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = title.plist; sourceTree = "<group>"; };
+		FF5BAC211678F0CF00BC2A64 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
+		FF5BAC241678F32200BC2A64 /* Title.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Title.h; sourceTree = "<group>"; };
+		FF5BAC251678F32200BC2A64 /* Title.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Title.m; sourceTree = "<group>"; };
+		FF5BAC271678F86A00BC2A64 /* dunes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dunes.png; sourceTree = "<group>"; };
+		FF5BAC291678FBB900BC2A64 /* cactus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cactus.png; sourceTree = "<group>"; };
+		FF5BAC2B1678FCAC00BC2A64 /* basket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basket.png; sourceTree = "<group>"; };
+		FF5BAC2D1678FD4A00BC2A64 /* BackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundLayer.h; sourceTree = "<group>"; };
+		FF5BAC2E1678FD4B00BC2A64 /* BackgroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundLayer.m; sourceTree = "<group>"; };
+		FF5BAC301678FEBA00BC2A64 /* afro.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = afro.plist; sourceTree = "<group>"; };
+		FF5BAC311678FEBA00BC2A64 /* afro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = afro.png; sourceTree = "<group>"; };
+		FF5BAC341678FEE900BC2A64 /* Fakir.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fakir.m; sourceTree = "<group>"; };
+		FF5BAC351678FEE900BC2A64 /* Fakir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fakir.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -488,6 +511,7 @@
 		088587DC1677AB5300B5B2B6 /* Views Extra */ = {
 			isa = PBXGroup;
 			children = (
+				FF5BAC1C1678F09700BC2A64 /* Sprite */,
 				FF564B661677A54C001B31C1 /* BaseLayer.h */,
 				FF564B671677A54C001B31C1 /* BaseLayer.m */,
 				FF564B681677A54C001B31C1 /* CreditsLayer.h */,
@@ -524,12 +548,16 @@
 		088587E61677B05700B5B2B6 /* Game Elements */ = {
 			isa = PBXGroup;
 			children = (
+				FF5BAC341678FEE900BC2A64 /* Fakir.m */,
+				FF5BAC351678FEE900BC2A64 /* Fakir.h */,
 				088587E31677B05100B5B2B6 /* TubLineLayer.h */,
 				088587E41677B05100B5B2B6 /* TubLineLayer.m */,
 				088587E71677B0A400B5B2B6 /* GestureLayer.h */,
 				088587E81677B0A400B5B2B6 /* GestureLayer.m */,
 				F80B9BDC167882AF00440585 /* MapLayer.h */,
 				F80B9BDD167882AF00440585 /* MapLayer.m */,
+				FF5BAC2D1678FD4A00BC2A64 /* BackgroundLayer.h */,
+				FF5BAC2E1678FD4B00BC2A64 /* BackgroundLayer.m */,
 			);
 			name = "Game Elements";
 			sourceTree = "<group>";
@@ -617,6 +645,13 @@
 		FF5649E11677A511001B31C1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FF5BAC301678FEBA00BC2A64 /* afro.plist */,
+				FF5BAC311678FEBA00BC2A64 /* afro.png */,
+				FF5BAC2B1678FCAC00BC2A64 /* basket.png */,
+				FF5BAC291678FBB900BC2A64 /* cactus.png */,
+				FF5BAC271678F86A00BC2A64 /* dunes.png */,
+				FF5BAC201678F0CF00BC2A64 /* title.plist */,
+				FF5BAC211678F0CF00BC2A64 /* title.png */,
 				F80B9BE1167883FF00440585 /* snakeMap.tmx */,
 				F80B9BD0167881FA00440585 /* block_b.png */,
 				F80B9BD1167881FA00440585 /* block_g.png */,
@@ -995,6 +1030,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FF5BAC1C1678F09700BC2A64 /* Sprite */ = {
+			isa = PBXGroup;
+			children = (
+				FF5BAC241678F32200BC2A64 /* Title.h */,
+				FF5BAC251678F32200BC2A64 /* Title.m */,
+			);
+			name = Sprite;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1070,6 +1114,13 @@
 				F80B9BD9167881FA00440585 /* block_p.png in Resources */,
 				F80B9BDA167881FA00440585 /* block_y.png in Resources */,
 				F80B9BE2167883FF00440585 /* snakeMap.tmx in Resources */,
+				FF5BAC221678F0CF00BC2A64 /* title.plist in Resources */,
+				FF5BAC231678F0CF00BC2A64 /* title.png in Resources */,
+				FF5BAC281678F86A00BC2A64 /* dunes.png in Resources */,
+				FF5BAC2A1678FBB900BC2A64 /* cactus.png in Resources */,
+				FF5BAC2C1678FCAC00BC2A64 /* basket.png in Resources */,
+				FF5BAC321678FEBA00BC2A64 /* afro.plist in Resources */,
+				FF5BAC331678FEBA00BC2A64 /* afro.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1197,6 +1248,9 @@
 				088587FD1677B8CA00B5B2B6 /* SL_UISwipeGestureRecognizer.m in Sources */,
 				088588001677B9FA00B5B2B6 /* CCBlade.mm in Sources */,
 				F80B9BDE167882AF00440585 /* MapLayer.m in Sources */,
+				FF5BAC261678F32200BC2A64 /* Title.m in Sources */,
+				FF5BAC2F1678FD4B00BC2A64 /* BackgroundLayer.m in Sources */,
+				FF5BAC361678FEE900BC2A64 /* Fakir.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1218,7 +1272,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -1237,7 +1291,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -1260,6 +1314,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1280,7 +1335,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				VALIDATE_PRODUCT = YES;
+				VALIDATE_PRODUCT = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1295,7 +1350,7 @@
 				FF564B621677A513001B31C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		FF564B631677A513001B31C1 /* Build configuration list for PBXNativeTarget "Snake Hero" */ = {
 			isa = XCConfigurationList;
@@ -1304,7 +1359,7 @@
 				FF564B651677A513001B31C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
