@@ -14,8 +14,8 @@
 
 @synthesize winSize, map, x, currentSpeed, currentPosition, levelDictionnary, currentLevelDictionnary, levelCount, tagList,thisIsTheEnd;
 
-- (id) init{
-    
+- (id) init
+{    
     @try
     {
         self = [super init];
@@ -38,12 +38,6 @@
             // Initialize origin position
             self.currentPosition = CGPointMake(0, 0);
     
-            // Load level
-            //self.levelDictionnary = [NSDictionary dictionaryWithDictionary:[self loadSnakeCourse:level_1]];
-            self.levelDictionnary = [NSDictionary dictionaryWithDictionary:[self loadSnakeCourse:level_2]];
-            //self.levelDictionnary = [NSDictionary dictionaryWithDictionary:[self loadSnakeCourse:level_3]];
-            
-            
             self.tagList = [[NSMutableArray alloc] init];
             
             // Standard method to create a button
@@ -56,7 +50,6 @@
             starMenu.position = CGPointZero;
             [self addChild:starMenu];
         
-        
             CCMenuItem *actionRemove = [CCMenuItemImage
                                   itemFromNormalImage:@"Icon.png" selectedImage:@"Icon.png"
                                   target:self selector:@selector(actionNiveau2:)];
@@ -65,11 +58,10 @@
             starMenu2.position = CGPointZero;
             [self addChild:starMenu2];
             
-        
         }
     }
     @catch (NSException *exception) {
-        NSLog(@"exception : %@", exception);
+        NSLog(@"init : %@", exception);
     }
     
     return self;
@@ -91,9 +83,6 @@
         
         // Load Snake Sprite
         CCSprite *snakeSprite = [CCSprite spriteWithFile:@"block_b.png"];
-        
-        /*int width = [snakeSprite boundingBox].size.width;
-        int height = [snakeSprite boundingBox].size.height;*/
         
         // Update level count
         self.levelCount = [[self currentLevelDictionnary] count];
@@ -497,16 +486,7 @@
                 
                 for(int i = 0; i < 2; i++)
                 {
-                    /*if(rank == 20)
-                    {
-                        NSMutableArray * thirdLevel = [NSMutableArray arrayWithArray:[[self levelDictionnary] objectForKey:@"level_3"]];
-                        
-                        //Re-initialize rank
-                        rank -= CountLevelTwo;
-                        movement = [[thirdLevel objectAtIndex:rank] intValue];
-                    }
-                    else*/
-                        movement = [[secondLevel objectAtIndex:rank] intValue];
+                    movement = [[secondLevel objectAtIndex:rank] intValue];
                 
                     [[self currentLevelDictionnary] addObject:[NSNumber numberWithInt:movement]];
                 
@@ -782,9 +762,22 @@
     }
     @catch (NSException *exception)
     {
-        NSLog(@"initSnakePosition() : %@", exception);
+        NSLog(@"updateCurrentPosition() : %@", exception);
     }
 }
+
+// Load level
+-(void)setLevel:(int) level
+{
+    @try
+    {
+        self.levelDictionnary = [NSDictionary dictionaryWithDictionary:[self loadSnakeCourse:level]];
+    }
+    @catch (NSException *exception) {
+        NSLog(@"setLevel : %@", exception);
+    }
+}
+
 
 
 -(void)actionNiveau1:(id)sender

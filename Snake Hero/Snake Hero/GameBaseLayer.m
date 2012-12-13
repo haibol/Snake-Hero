@@ -32,14 +32,14 @@
         [self addChild:gestureLayer];
         
         MapLayer * mapLayer = [MapLayer node];
+        
+        [mapLayer setLevel:level_1];
+        //[mapLayer setLevel:level_2];
+        //[mapLayer setLevel:level_3];
+        
         [self addChild:mapLayer];
         
         
-        /*for(int i = 0; i < 30; i++)
-        {
-            for(int j = 0; j < 30; j++)
-                [mapLayer addSnakePart:240 :j : 1];
-        }*/
         
         Fakir * fakir = [Fakir node];
         [self addChild:fakir];

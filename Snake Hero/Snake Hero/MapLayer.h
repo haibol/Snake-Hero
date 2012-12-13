@@ -25,7 +25,6 @@
     NSInteger levelCount;
     NSMutableArray *tagList;
     
-    
     BOOL thisIsTheEnd;
 }
 
@@ -40,6 +39,7 @@
 @property NSInteger levelCount;
 @property NSMutableArray *tagList;
 @property BOOL thisIsTheEnd;
+
 
 
 -(void)addSnakePart:(NSInteger) x:(NSInteger)y;
