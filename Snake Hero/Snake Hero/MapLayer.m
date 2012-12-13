@@ -39,7 +39,10 @@
             self.currentPosition = CGPointMake(0, 0);
     
             // Load level
-            self.levelDictionnary = [NSDictionary dictionaryWithDictionary:[self loadSnakeCourse:level_1]];
+            //self.levelDictionnary = [NSDictionary dictionaryWithDictionary:[self loadSnakeCourse:level_1]];
+            self.levelDictionnary = [NSDictionary dictionaryWithDictionary:[self loadSnakeCourse:level_2]];
+            //self.levelDictionnary = [NSDictionary dictionaryWithDictionary:[self loadSnakeCourse:level_3]];
+            
             
             self.tagList = [[NSMutableArray alloc] init];
             
@@ -227,9 +230,20 @@
                 break;
             case level_2:
                 [speed_2 addObject:(id)Map_Up];
+                [speed_2 addObject:(id)Map_Right];
+                [speed_2 addObject:(id)Map_Up];
+                [speed_2 addObject:(id)Map_Right];
+                [speed_2 addObject:(id)Map_Right];
                 [speed_2 addObject:(id)Map_Up];
                 [speed_2 addObject:(id)Map_Up];
+                [speed_2 addObject:(id)Map_Left];
                 [speed_2 addObject:(id)Map_Up];
+                [speed_2 addObject:(id)Map_Up];
+                [speed_2 addObject:(id)Map_Right];
+                [speed_2 addObject:(id)Map_Right];
+                [speed_2 addObject:(id)Map_Down];
+                [speed_2 addObject:(id)Map_Right];
+                [speed_2 addObject:(id)Map_Right];
                 [speed_2 addObject:(id)Map_Up];
                 [speed_2 addObject:(id)Map_Up];
                 [speed_2 addObject:(id)Map_Up];
@@ -238,11 +252,22 @@
                 break;
             case level_3:
                 [speed_2 addObject:(id)Map_Up];
+                [speed_2 addObject:(id)Map_Left];
+                [speed_2 addObject:(id)Map_Left];
                 [speed_2 addObject:(id)Map_Up];
                 [speed_2 addObject:(id)Map_Up];
                 [speed_2 addObject:(id)Map_Up];
                 [speed_2 addObject:(id)Map_Up];
+                [speed_2 addObject:(id)Map_Left];
+                [speed_2 addObject:(id)Map_Left];
+                [speed_2 addObject:(id)Map_Down];
+                [speed_2 addObject:(id)Map_Down];
+                [speed_2 addObject:(id)Map_Left];
                 [speed_2 addObject:(id)Map_Up];
+                [speed_2 addObject:(id)Map_Up];
+                [speed_2 addObject:(id)Map_Up];
+                [speed_2 addObject:(id)Map_Up];
+                [speed_2 addObject:(id)Map_Left];
                 [speed_2 addObject:(id)Map_Up];
                 [speed_2 addObject:(id)Map_Up];
                 [speed_2 addObject:(id)Map_Up];
@@ -308,10 +333,38 @@
                 break;
             case level_2:
                 [speed_3 addObject:(id)Map_Up];
+                [speed_3 addObject:(id)Map_Left];
+                [speed_3 addObject:(id)Map_Left];
+                [speed_3 addObject:(id)Map_Up];
+                [speed_3 addObject:(id)Map_Left];
+                [speed_3 addObject:(id)Map_Left];
+                [speed_3 addObject:(id)Map_Left];
+                [speed_3 addObject:(id)Map_Left];
                 [speed_3 addObject:(id)Map_Up];
                 [speed_3 addObject:(id)Map_Up];
                 [speed_3 addObject:(id)Map_Up];
                 [speed_3 addObject:(id)Map_Up];
+                [speed_3 addObject:(id)Map_Left];
+                [speed_3 addObject:(id)Map_Left];
+                [speed_3 addObject:(id)Map_Down];
+                [speed_3 addObject:(id)Map_Down];
+                [speed_3 addObject:(id)Map_Down];
+                [speed_3 addObject:(id)Map_Left];
+                [speed_3 addObject:(id)Map_Left];
+                [speed_3 addObject:(id)Map_Up];
+                [speed_3 addObject:(id)Map_Left];
+                [speed_3 addObject:(id)Map_Left];
+                [speed_3 addObject:(id)Map_Up];
+                [speed_3 addObject:(id)Map_Right];
+                [speed_3 addObject:(id)Map_Right];
+                [speed_3 addObject:(id)Map_Up];
+                [speed_3 addObject:(id)Map_Up];
+                [speed_3 addObject:(id)Map_Up];
+                [speed_3 addObject:(id)Map_Up];
+                [speed_3 addObject:(id)Map_Right];
+                [speed_3 addObject:(id)Map_Right];
+                [speed_3 addObject:(id)Map_Down];
+                [speed_3 addObject:(id)Map_Right];
                 [speed_3 addObject:(id)Map_Up];
                 [speed_3 addObject:(id)Map_Up];
                 [speed_3 addObject:(id)Map_Up];
@@ -319,8 +372,35 @@
                 break;
             case level_3:
                 [speed_3 addObject:(id)Map_Up];
+                [speed_3 addObject:(id)Map_Right];
+                [speed_3 addObject:(id)Map_Up];
+                [speed_3 addObject:(id)Map_Right];
                 [speed_3 addObject:(id)Map_Up];
                 [speed_3 addObject:(id)Map_Up];
+                [speed_3 addObject:(id)Map_Right];
+                [speed_3 addObject:(id)Map_Right];
+                [speed_3 addObject:(id)Map_Down];
+                [speed_3 addObject:(id)Map_Down];
+                [speed_3 addObject:(id)Map_Right];
+                [speed_3 addObject:(id)Map_Right];
+                [speed_3 addObject:(id)Map_Up];
+                [speed_3 addObject:(id)Map_Up];
+                [speed_3 addObject:(id)Map_Up];
+                [speed_3 addObject:(id)Map_Right];
+                [speed_3 addObject:(id)Map_Right];
+                [speed_3 addObject:(id)Map_Down];
+                [speed_3 addObject:(id)Map_Down];
+                [speed_3 addObject:(id)Map_Right];
+                [speed_3 addObject:(id)Map_Up];
+                [speed_3 addObject:(id)Map_Up];
+                [speed_3 addObject:(id)Map_Up];
+                [speed_3 addObject:(id)Map_Up];
+                [speed_3 addObject:(id)Map_Left];
+                [speed_3 addObject:(id)Map_Left];
+                [speed_3 addObject:(id)Map_Left];
+                [speed_3 addObject:(id)Map_Left];
+                [speed_3 addObject:(id)Map_Down];
+                [speed_3 addObject:(id)Map_Left];
                 [speed_3 addObject:(id)Map_Up];
                 [speed_3 addObject:(id)Map_Up];
                 [speed_3 addObject:(id)Map_Up];
